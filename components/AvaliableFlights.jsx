@@ -12,9 +12,9 @@ class AvaliableFlights extends React.Component() {
 
         <div>
           <ul>
-            <li>Flight 1</li>
-            <li>Flight 1</li>
-            <li>Flight 1</li>
+            <li><span>Flight 1<button class="right">Reserve</button></span></li>
+            <li><span>Flight 1<button class="right">Reserve</button></span></li>
+            <li><span>Flight 1<button class="right">Reserve</button></span></li>
           </ul>
         </div>
       </div>

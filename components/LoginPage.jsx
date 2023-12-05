@@ -20,7 +20,7 @@ class LoginPage extends React.Component() {
           </feildset>
         </form>
 
-        <button onclick={this.props.login()}>Login</button>
+        <button onclick={this.props.loggedIn = True}>Login</button>
       </div>
     )
   }

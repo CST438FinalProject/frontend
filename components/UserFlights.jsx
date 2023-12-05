@@ -12,9 +12,9 @@ class UserFlights extends React.Component() {
 
         <div>
           <ul>
-            <li>My Flight 1</li>
-            <li>My Flight 1</li>
-            <li>My Flight 1</li>
+            <li><span>My Flight 1<button class="right" style="background-color:red;">Cancel</button></span></li>
+            <li><span>My Flight 1<button class="right" style="background-color:red;">Cancel</button></span></li>
+            <li><span>My Flight 1<button class="right" style="background-color:red;">Cancel</button></span></li>
           </ul>
         </div>
       </div>

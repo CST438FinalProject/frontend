@@ -11,7 +11,7 @@ class NavBar extends React.Component() {
         <nav>
           <button>My Flights</button>
           <p>{this.props.username}</p>
-          <button>Logout</button>
+          <button style="background-color:red;">Logout</button>
         </nav>
       );
     }else if(this.props.location == 'UserFlights'){
@@ -19,7 +19,7 @@ class NavBar extends React.Component() {
         <nav>
           <button>Avaliable Flights</button>
           <p>{this.props.username}</p>
-          <button>Logout</button>
+          <button style="background-color:red;">Logout</button>
         </nav>
       );
     }
