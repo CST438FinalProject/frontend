@@ -8,6 +8,9 @@ body, h1, h2, ul, li, form, button {
 
 body {
   font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 nav {
@@ -76,4 +79,9 @@ body.login-page {
 /* ReservedFlights specific styles */
 body.reserved-flights {
   background-color: #f9f9f9;
+}
+
+button.login {
+  margin-left: 40%;
+  margin-right: 40%;
 }
