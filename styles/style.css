@@ -85,3 +85,8 @@ button.login {
   margin-left: 40%;
   margin-right: 40%;
 }
+
+.padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
