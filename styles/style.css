@@ -73,7 +73,8 @@ body.main-page {
 
 /* LoginPage specific styles */
 body.login-page {
-  background-color: #e6e6e6;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
 }
 
 /* ReservedFlights specific styles */
@@ -89,4 +90,15 @@ button.login {
 .padding {
   padding-left: 5%;
   padding-right: 5%;
+}
+.logo {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 5px solid #4CAF50;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+.right {
+  margin-left: 85%;
 }
