@@ -1,6 +1,6 @@
 import React from "react";
-import { MainPage } from 'components/MainPage';
-import { LoginPage } from 'components/LoginPage';
+import { MainPage } from 'components/MainPage.jsx';
+import { LoginPage } from 'components/LoginPage.jsx';
 
 export default class App extends React.Component() {
   constructor(props){

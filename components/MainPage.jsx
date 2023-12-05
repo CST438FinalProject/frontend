@@ -1,4 +1,7 @@
 import React from "react";
+import { NavBar } from 'components/NavBar.jsx';
+import { AvaliableFlights } from 'components/AvaliableFlights.jsx';
+import { UserFlights } from 'components/UserFlights.jsx';
 
 class MainPage extends React.Component() {
   constructor(props){
@@ -9,11 +12,11 @@ class MainPage extends React.Component() {
     return(
       (onAvaliable ? 
         <div>
-          <Navbar location={'AvaliableFlights'} username={this.props.username}/>
+          <NavBar location={'AvaliableFlights'} username={this.props.username}/>
           <AvaliableFlights />
         </div> : 
         <div>
-          <Navbar location={'UserFlights'} username={this.props.username}/>
+          <NavBar location={'UserFlights'} username={this.props.username}/>
           <UserFlights />
         </div>
       )
