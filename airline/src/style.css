@@ -1,0 +1,104 @@
+/* styles/style.css */
+
+/* Reset some default browser styles */
+body, h1, h2, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* MainPage specific styles */
+body.main-page {
+    background-color: #f2f2f2;
+}
+
+/*!* LoginPage specific styles *!*/
+/*body.login-page {*/
+/*    background-image: url("images/bg.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+/* ReservedFlights specific styles */
+body.reserved-flights {
+    background-color: #f9f9f9;
+}
+
+button.login {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.padding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+.right {
+    margin-left: 85%;
+}

@@ -1,14 +1,11 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "msedge",
-      "request": "launch",
+      "type": "chrome",
+      "request": "start",
       "name": "Open loginPage.html",
-      "file": "c:\\Users\\trevo\\OneDrive\\Documents\\GitHub\\frontend\\loginPage.html"
+      "file": "C://Users//18315//Downloads//frontend//loginPage.html"
     }
   ]
 }

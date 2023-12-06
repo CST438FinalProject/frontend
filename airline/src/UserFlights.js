@@ -1,11 +1,12 @@
 import React from "react";
-
-class UserFlights extends React.Component() {
-  constructor(props){
-    super(props);
-  }
-
-  render(){
+import './style.css';
+// class UserFlights extends React.Component() {
+//   constructor(props){
+//     super(props);
+//   }
+//
+//   render(){
+function UserFlights (){
     return(
       <div>
         <h1>Your Reserved Flights</h1>
@@ -19,5 +20,5 @@ class UserFlights extends React.Component() {
         </div>
       </div>
     )
-  }
-}
+
+} export default UserFlights
