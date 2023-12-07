@@ -9,21 +9,21 @@ import '../LoginPage.css'
 //   render(){
 function LoginPage (){
     return(
-      <div>
-        <h1>User Login</h1>
+        <div>
+            <h1>User Login</h1>
 
-        <form method="post">
-          <fieldset>
-            
-            <label for="username">Enter your Username: <input type="text" id="username" name="username" required></input></label>
-            
-            <label for="password">Enter your Password: <input type="text" id="password" name="password" required></input></label>
-            
-          </fieldset>
-        </form>
+            <form method="post">
+                <fieldset>
 
-        <button onclick={"login"}>Login</button>
-      </div>
+                    <label for="username">Enter your Username: <input type="text" id="username" name="username" required></input></label>
+
+                    <label for="password">Enter your Password: <input type="text" id="password" name="password" required></input></label>
+
+                </fieldset>
+            </form>
+
+            <button onclick={"login"}>Login</button>
+        </div>
     )
 
 }
